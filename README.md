@@ -3,7 +3,11 @@ E-commerce data manipulation using RPA is an automation project that will produc
 
 ~Module Splitup
 
-Module 1: Input Business File Module 2: Search the required ISBN number Module 3: Web manipulation and extraction Module 4: Business file report generation Module 5: File transfer via e-mail
+Module 1: Input Business File (sridhar.R)
+Module 2: Search the required ISBN number (Swathika.G)
+Module 3: Web manipulation and extraction (Swathika.G)
+Module 4: Business file report generation (Swathika.G)
+Module 5: File transfer via e-mail(Yeesha sharookhan.S)
 
 ~Advantages over existing methods
 
