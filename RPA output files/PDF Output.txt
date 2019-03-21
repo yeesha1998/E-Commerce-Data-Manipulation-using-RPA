@@ -1,0 +1,14 @@
+INPUT BUSINESS FILE
+The below business document gives a list of various books and its corresponding 13-digit 
+ISBN numbers. ISBN refers to International Standard Book Number.
+ SNO ISBN NUMBERS BOOK NAMES
+ 1 978-8177587746 Cryptography and Network Security
+ 2 978-9333202862 Computer Graphics 
+ 3 978-9333202060 Object Oriented Analysis and Design
+ 4 978-9333202077 Theory of Computation
+ 5 978-9333206853 Compiler Design
+ 6 978-9333206846 Distributed Systems
+ 7 978-9333206815 Artificial Intelligence
+ 8 978-9351199120 Data Warehouse and Data Mining
+ 9 978-9333206808 Software Architecture 
+ 10 978-9333201827 Internet Programming

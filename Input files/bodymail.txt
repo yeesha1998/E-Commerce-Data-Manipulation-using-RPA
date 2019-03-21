@@ -1,0 +1,5 @@
+Dear {0},
+	Herewith, I have attached the output files of E-Commerce data manipulation.
+
+Regards
+Swathika Guruswamy
