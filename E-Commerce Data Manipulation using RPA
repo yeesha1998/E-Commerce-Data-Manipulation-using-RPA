@@ -1,0 +1,69 @@
+
+E-COMMERCE DATA MANIPULATION USING RPA
+
+The project “E-Commerce data manipulation using RPA” is about how to automate the manual process of data search using the ISBN numbers of various books in an E-Commerce website such as Amazon. Robotic process automation (RPA) is the use of software with artificial intelligence (AI) and machine learning capabilities to handle high-volume, repeatable tasks that previously required humans to perform. Software named as “robot” captures and interprets the customer requirements and initiates operations across multiple digital systems. These software bots which perform these activities can also be termed as virtual or digital workforce in today’s work environment.  Results of the project highlight that factors such as security, privacy, reliability and usefulness are significant in advancing RPA in the E-commerce websites. 
+ 
+PROBLEM DEFINITION
+E-commerce data manipulation using RPA is an automation project that will produce the various book details to clients via e-mail using ISBN numbers. When we search for a particular book using an ISBN number in Amazon e-commerce website, the result is not ready for consumption and is not clearly formatted. ISBN refers to a 13-digit International Standard Book Number. This project reduces the time and effort required to drill down the relevant book information and collates the automated results in excel which is easy to consume, visualize and understand by the clients.
+
+TOOLS USED 
+UiPath IDE:
+UiPath is a software structure to improve automation applications. It runs on Microsoft Windows and it was settled on the top of Net framework and Windows workflow base tools. UiPath scores best in technology category.                There are three main components in UiPath. UiPath Studio is a tool that enables you to design automation processes in a visual manner, through diagrams. UiPath Robot executes the processes built in Studio, as a human would. UiPath Orchestrator is a web application that enables you to deploy, schedule, monitor and manage Robots and processes. 
+
+TECHNOLOGY TO BE USED: UiPath tool
+
+MODULE SPLIT UP   
+Module 1: Input Business File 
+Module 2: Search the required ISBN Number 
+Module 3: Web Manipulation and extraction
+Module 4: Business File Report Generation 
+Module 5: File transfer via E-mail 
+
+INPUT:
+The input will be obtained from the client through excel or pdf with the following details:
+•	Serial number
+•	ISBN number 
+
+ Input Business File
+•	The input business file module is used to get the ISBN number as input which is given to the Amazon E-Commerce website.
+•	The client will send the details about the ISBN numbers of various books which are to be processed. 
+•	The input business file can be obtained in any of the below two formats:
+1.	Excel
+2.	PDF
+•	Based on the subject and date, the email will be checked and the attachment will be downloaded automatically. (Only the unread mail will be checked and it will be processed).
+•	In case, if the client sends the attachment as an PDF then it will converted into word document and then the further steps will be processed.
+•	In case, if the client sends the attachment as excel then it will be processed directly.
+
+Search the required ISBN number
+ The Search books using ISBN module is used for surfing the specified books based on the ISBN number which is given as input from the PDF or Excel in the e-commerce website. It prompts the user to order the type of books via online based on some basic information about the products provided by the bot. We have made a provision for searching the ISBN code number list via online. All the manipulation data are been recorded by the bot for future purposes.
+
+Input Website: https://www.amazon.in/   Snapshot:
+ 
+Web manipulation and Extraction  
+ This module is used for manipulation of some basic information about the product specified by the customers. It allows users to have a gist look about the product specified in all E-commerce websites and compare the similar items to the product specified. It provides some basic details about the books such as the book publication, cost of the book, review and the availability of the specified book in that e-commerce website. 
+
+Business file report generation  
+ From the above web manipulation and extraction module, the required details about the books are manipulated and extracted.  These details are then consolidated and collated to form an excel sheet which is a business file. 
+
+File transfer via mail
+  The Business file is sent via e-mail to the required client.
+
+OUTPUT:
+The output will be a business file mentioned in excel spreadsheet with these columns:
+•	Serial number
+•	Book name
+•	Author name
+•	Price
+•	Review
+
+
+
+
+
+ 
+ 
+
+    
+
+
+
