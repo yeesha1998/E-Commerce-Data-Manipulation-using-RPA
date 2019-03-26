@@ -63,6 +63,6 @@ File transfer via e-mail
 2) Swathika G               711715104065
 3) Yeesha sharookhan S      711715104308
 
-Project status-100%
+Project status-90%
 
 Department Of Computer Science and Engineeering
